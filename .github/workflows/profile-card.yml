@@ -1,0 +1,27 @@
+name: Profile Card demo
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Print Hello
+      run: echo "Hello, GitHub Actions!"
+
+    - name: Print I am
+      run: echo "Hello, GitHub Actions!"
+
+    - name: Print I like
+      run: echo "Hello, GitHub Actions!"
+
+    - name: Print My birth
+      run: echo "Hello, GitHub Actions!"
+    
+  
